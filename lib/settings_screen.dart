@@ -13,7 +13,7 @@ class SettingsPanel extends StatefulWidget {
     this.initialRadiusKm = 25,
     this.initialRemoteOnly = false,
     this.onApply,
-    this.onThemeChanged,
+    this.onThemeChanged, required void Function(ThemeMode mode) onTheme,
   });
 
   @override

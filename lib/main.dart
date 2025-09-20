@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
         '/login': (_) => const LoginScreen(),
         '/register': (_) => const RegisterScreen(),
         '/jobs': (_) => const JobOffersListScreen(),
-        '/settings': (_) => SettingsScreen(onTheme: _onThemeChanged),
+        '/settings': (_) => SettingsPanel(onTheme: _onThemeChanged),
       },
       onGenerateRoute: (settings) {
         if (settings.name == '/detail') {
