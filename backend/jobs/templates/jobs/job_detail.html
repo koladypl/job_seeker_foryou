@@ -1,0 +1,7 @@
+<h1>{{ job.title }}</h1>
+<p><strong>Firma:</strong> {{ job.company }}</p>
+<p><strong>Lokalizacja:</strong> {{ job.location }}</p>
+<p><strong>Wynagrodzenie:</strong> {{ job.salary_text }}</p>
+<p><strong>Opis:</strong></p>
+<p>{{ job.description|linebreaks }}</p>
+<a href="{% url 'jobs_list' %}">← Powrót do listy</a>

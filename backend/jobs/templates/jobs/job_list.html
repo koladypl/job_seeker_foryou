@@ -1,0 +1,25 @@
+<h1>Ostatnie oferty</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Stanowisko</th>
+      <th>Firma</th>
+      <th>Lokalizacja</th>
+      <th>Wynagrodzenie</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for job in jobs %}
+    <tr>
+      <td>{{ job.title }}</td>
+      <td>{{ job.company }}</td>
+      <td>{{ job.location }}</td>
+      <td>{{ job.salary_text }}</td>
+      <td><a href="{% url 'job_detail' job.id %}">Zobacz</a></td>
+    </tr>
+    {% empty %}
+    <tr><td colspan="5">Brak ofert</td></tr>
+    {% endfor %}
+  </tbody>
+</table>

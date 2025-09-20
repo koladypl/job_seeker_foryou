@@ -1,0 +1,12 @@
+[
+  {"name": "Warszawa", "lat": 52.2297, "lon": 21.0122},
+  {"name": "Kraków", "lat": 50.0647, "lon": 19.9450},
+  {"name": "Łódź", "lat": 51.7592, "lon": 19.4550},
+  {"name": "Wrocław", "lat": 51.1079, "lon": 17.0385},
+  {"name": "Poznań", "lat": 52.4064, "lon": 16.9252},
+  {"name": "Gdańsk", "lat": 54.3520, "lon": 18.6466},
+  {"name": "Szczecin", "lat": 53.4285, "lon": 14.5528},
+  {"name": "Lublin", "lat": 51.2465, "lon": 22.5684},
+  {"name": "Katowice", "lat": 50.2649, "lon": 19.0238},
+  {"name": "Białystok", "lat": 53.1325, "lon": 23.1688}
+]
